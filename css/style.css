@@ -59,8 +59,12 @@ address {
   margin-left: auto;
 }
 
+.page-header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
 .navigation {
-  height: 80px;
   display: flex;
   align-items: center;
   margin-right: auto;
@@ -137,13 +141,13 @@ address {
 .section-hero {
   background-color: #2f303a;
   text-align: center;
-
+padding-top: 200px;
+padding-bottom: 200px;
 }
 
 .page-title {
   width: 696px;
   margin-bottom: 30px;
-  padding-top: 200px;
   margin-right: auto;
   margin-left: auto;
   font-weight: 900;
@@ -159,7 +163,6 @@ address {
   padding-bottom: 10px;
   padding-left: 32px;
   padding-right: 32px;
-  margin-bottom: 200px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -174,10 +177,12 @@ address {
 
 /* ОСОБЕННОСТИ */
 
+.section-work {
+  padding-top: 94px;
+}
+
 .list-work {
   display: flex;
-  margin-top: 94px;
-  margin-bottom: 94px;
 }
 
 .title-work {
@@ -199,6 +204,11 @@ address {
 }
 
 /*  ЧЕМ МЫ ЗАНИМАЕМСЯ */
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .section-title {
   font-size: 36px;
@@ -270,11 +280,15 @@ address {
 
 /* PORTFOLIO */
 
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .filters-list {
   display: flex;
   justify-content: center;
-  margin-top: 94px;
-  margin-bottom: 53px;
+margin-bottom: 50px;
 }
 
 .button-list {
@@ -319,7 +333,6 @@ address {
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
-  margin-bottom: 94px;
 }
 
 .portfolio-link {
