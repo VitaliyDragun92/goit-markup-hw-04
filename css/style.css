@@ -35,8 +35,15 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6 {
   margin-top: 0;
+}
+
+p {
+  margin-bottom: 0;
 }
 
 img {
@@ -62,6 +69,7 @@ address {
 .page-header {
   padding-top: 24px;
   padding-bottom: 25px;
+  border: 1px solid #ECECEC;
 }
 
 .navigation {
@@ -201,6 +209,7 @@ padding-bottom: 200px;
 
 .list-work .item {
   width: 270px;
+  height: 101px;
 }
 
 /*  ЧЕМ МЫ ЗАНИМАЕМСЯ */
@@ -222,8 +231,13 @@ padding-bottom: 200px;
 
 .list-works {
   display: flex;
-  margin-top: 94px;
-  margin-bottom: 94px;
+/*  margin-top: 94px;
+  margin-bottom: 94px;*/
+}
+
+.item-works {
+  width: 370px;
+  height: 294px;
 }
 
 .list-works .item-works+.item-works {
@@ -240,6 +254,11 @@ padding-bottom: 200px;
 
 .team-card {
   display: flex;
+}
+
+.item-team {
+  width: 270px; 
+  height: 368px;
 }
 
 .team-card .item-team {
